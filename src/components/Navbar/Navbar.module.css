@@ -1,0 +1,38 @@
+.container{
+    width: 55px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #24292E;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+.footer{
+    margin-top: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container ul li,.footer button{
+    background: none;
+    border: none;
+    color: #6A737D;
+    font-size: 1.4rem;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+    cursor: pointer;
+}
+.container ul li:hover,.footer button:hover{
+    color: #fff;
+}
