@@ -1,8 +1,93 @@
+import style from "./Home.module.css"
+
 export default function Home(){
 
     return(
-        <div>
-            <p>Fuck off world</p>
+        <div className={style.container}>
+            <p className={style.name} >amir.gharibipour@spaceconcordia.ca</p>   
+            
+            <table>
+                <tr>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                    <th>
+                        Reply
+                    </th>
+                    <th>
+                        Delete
+                    </th>
+                    <th>
+                        Hide
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Title
+                    </td>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        Reply
+                    </td>
+                    <td>
+                        Delete
+                    </td>
+                    <td>
+                        Hide
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Title
+                    </td>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        Reply
+                    </td>
+                    <td>
+                        Delete
+                    </td>
+                    <td>
+                        Hide
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Title
+                    </td>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        Reply
+                    </td>
+                    <td>
+                        Delete
+                    </td>
+                    <td>
+                        Hide
+                    </td>
+                </tr>
+            </table>
         </div>
     )
 }
