@@ -5,89 +5,43 @@ export default function Home(){
     return(
         <div className={style.container}>
             <p className={style.name} >amir.gharibipour@spaceconcordia.ca</p>   
-            
-            <table>
-                <tr>
-                    <th>
+
+
+            <div className={style.table}>
+                <div className={style.header}>
+                    <div>
                         Title
-                    </th>
-                    <th>
+                    </div>
+                    <div>
                         Email
-                    </th>
-                    <th>
+                    </div>
+                    <div>
                         Date
-                    </th>
-                    <th>
-                        Reply
-                    </th>
-                    <th>
-                        Delete
-                    </th>
-                    <th>
-                        Hide
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        Title
-                    </td>
-                    <td>
-                        Email
-                    </td>
-                    <td>
-                        Date
-                    </td>
-                    <td>
-                        Reply
-                    </td>
-                    <td>
-                        Delete
-                    </td>
-                    <td>
-                        Hide
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Title
-                    </td>
-                    <td>
-                        Email
-                    </td>
-                    <td>
-                        Date
-                    </td>
-                    <td>
-                        Reply
-                    </td>
-                    <td>
-                        Delete
-                    </td>
-                    <td>
-                        Hide
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Title
-                    </td>
-                    <td>
-                        Email
-                    </td>
-                    <td>
-                        Date
-                    </td>
-                    <td>
-                        Reply
-                    </td>
-                    <td>
-                        Delete
-                    </td>
-                    <td>
-                        Hide
-                    </td>
-                </tr>
-            </table>
+                    </div>
+                    <div>
+                        Actions
+                    </div>
+                </div>
+                <div className={style.row}>
+                    <div>
+                        When Are you going to start backend
+                    </div>
+                    <div>
+                        amir.gharibipour@spaceconcordia.ca
+                    </div>
+                    <div>
+                        5/11/2024
+                    </div>
+                    <div>
+                        <button>Reply</button>
+                        <button>Delete</button>
+                        <button>Flag</button>
+                        <button>Hide</button>
+                    </div>
+                </div>
+                
+            </div>
+
         </div>
     )
 }

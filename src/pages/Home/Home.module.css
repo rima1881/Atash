@@ -26,27 +26,40 @@
     margin-top: 25px;
     margin-bottom: 15px;
 }
-.container table tr{
-    background-color: #eee;
-    height: 30px;
-}
-.container td{
-    margin: 0;
-    padding: 0;
-}
 
-.container table{
+.table{
+    display: flex;
+    flex-direction: column;
     font-family: 'Oxygen';
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-top: 20px;
-    background-color: #24292E;
-    border-radius: 5px;
+    background-color: #eee;
     box-shadow: 5px 5px 10px #999;
+    border-radius: 8px;
+    border-color: #24292E;
+    border-style: solid;
+    border-width: 2px;
 }
-.container table th{
+.table div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.header{
     background-color: #24292E;
     height: 50px;
+    border-radius: 5px 5px 0 0;
     color: white;
+    font-weight: 600;
+}
+.header div{
+    display: flex;
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.table .row{
+    height: 30px;
 }
